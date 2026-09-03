@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prénom Nom — Data Analyst</title>
+  <meta name="description" content="Portfolio de data analyst : SQL, Python, Power BI, storytelling et projets métier." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="logo" href="index.html">PN<span>.</span></a>
+      <button class="menu-btn" type="button" aria-label="Menu">Menu</button>
+      <nav class="nav-links">
+        <a class="active" href="index.html">Accueil</a>
+        <a href="#projets">Projets</a>
+        <a href="#competences">Compétences</a>
+        <a href="#apropos">À propos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="wrap hero">
+      <div>
+        <p class="kicker">Portfolio data analyst</p>
+        <h1>Je transforme des données brutes en décisions utiles.</h1>
+        <p class="lead">
+          Bonjour, je suis <strong>Prénom Nom</strong>. J’analyse, je nettoie, je visualise
+          et je raconte ce que les chiffres veulent dire — pour qu’un métier puisse agir.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projets">Voir les projets</a>
+          <a class="btn btn-ghost" href="mailto:prenom.nom@email.com">Me contacter</a>
+        </div>
+      </div>
+      <aside class="hero-panel" aria-hidden="true">
+        <div class="kpi-grid">
+          <div class="kpi"><b>5</b><span>projets documentés</span></div>
+          <div class="kpi"><b>SQL</b><span>cœur du métier</span></div>
+          <div class="kpi"><b>BI</b><span>Power BI / Tableau</span></div>
+          <div class="kpi"><b>Python</b><span>pandas & EDA</span></div>
+        </div>
+        <div class="chart-fake">
+          <svg viewBox="0 0 300 120" preserveAspectRatio="none">
+            <polyline fill="none" stroke="#7dd3c0" stroke-width="3"
+              points="0,90 30,82 60,88 90,60 120,66 150,40 180,48 210,28 240,36 270,18 300,22" />
+          </svg>
+        </div>
+      </aside>
+    </section>
+
+    <section class="wrap" id="projets">
+      <div class="section-head">
+        <h2>Projets</h2>
+        <p>Chaque étude part d’une question business, pas d’un dataset “propre” trouvé au hasard.</p>
+      </div>
+      <div class="grid-projects">
+        <article class="card">
+          <div class="card-visual v1"><span class="tag">SQL · Nettoyage</span></div>
+          <div class="card-body">
+            <h3>Nettoyage de données immobilières</h3>
+            <p>Transformer un export housing sale, plein de doublons et de formats incohérents, en table exploitable.</p>
+            <div class="card-meta">
+              <a href="projects/immobilier-sql.html">Lire le case study →</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-visual v2"><span class="tag">SQL · EDA</span></div>
+          <div class="card-body">
+            <h3>Exploration COVID-19 mondiale</h3>
+            <p>Mesurer incidence, mortalité et vaccination par pays, puis extraire des comparaisons utiles.</p>
+            <div class="card-meta">
+              <a href="projects/covid-sql.html">Lire le case study →</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-visual v3"><span class="tag">Power BI</span></div>
+          <div class="card-body">
+            <h3>Dashboard ventes retail</h3>
+            <p>Un tableau de bord pour voir où la croissance se fait… et où la marge disparaît.</p>
+            <div class="card-meta">
+              <a href="projects/dashboard-ventes.html">Lire le case study →</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-visual v4"><span class="tag">Python</span></div>
+          <div class="card-body">
+            <h3>Corrélation revenus films</h3>
+            <p>Quelles variables expliquent vraiment le box-office ? Budget, votes, studio, timing.</p>
+            <div class="card-meta">
+              <a href="projects/films-python.html">Lire le case study →</a>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-visual v5"><span class="tag">Python · Web</span></div>
+          <div class="card-body">
+            <h3>Suivi de prix e-commerce</h3>
+            <p>Collecter des prix produits, détecter les variations et poser une alerte simple.</p>
+            <div class="card-meta">
+              <a href="projects/prix-python.html">Lire le case study →</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="wrap" id="competences">
+      <div class="section-head">
+        <h2>Compétences</h2>
+        <p>La stack d’un analyste qui livre des réponses, pas seulement des graphiques.</p>
+      </div>
+      <div class="skills">
+        <span class="chip">SQL (PostgreSQL / SQL Server)</span>
+        <span class="chip">Python · pandas · matplotlib</span>
+        <span class="chip">Power BI · DAX</span>
+        <span class="chip">Tableau</span>
+        <span class="chip">Excel · Power Query</span>
+        <span class="chip">Looker Studio</span>
+        <span class="chip">Nettoyage de données</span>
+        <span class="chip">Analyse exploratoire</span>
+        <span class="chip">Cohortes & rétention</span>
+        <span class="chip">KPI métier</span>
+        <span class="chip">Storytelling</span>
+        <span class="chip">Git / GitHub</span>
+      </div>
+    </section>
+
+    <section class="wrap" id="apropos">
+      <div class="section-head">
+        <h2>À propos</h2>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p style="color:var(--soft); margin-bottom:16px;">
+            Remplace ce paragraphe par ton histoire réelle : reconversion, formation,
+            stages, ce que tu aimes analyser, les secteurs qui t’intéressent
+            (retail, santé, produit, finance…).
+          </p>
+          <p style="color:var(--muted);">
+            Un bon portfolio data analyst montre trois choses : tu sais interroger
+            des données, tu documentes tes choix, et tu proposes une recommandation.
+          </p>
+        </div>
+        <div class="about-box">
+          <strong>Ce que je cherche</strong>
+          <ul>
+            <li>Poste data analyst / BI junior ou confirmé</li>
+            <li>Environnement SQL + visualisation</li>
+            <li>Sujets : performance, clients, opérations</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap" id="contact">
+      <div class="contact-box">
+        <div>
+          <p class="kicker">Disponible</p>
+          <h2 style="font-family:var(--display); font-size:2rem; letter-spacing:-.03em;">Parlons d’un poste ou d’un projet.</h2>
+          <p style="color:var(--muted); margin-top:8px;">Réponse sous 48h en général.</p>
+        </div>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="mailto:prenom.nom@email.com">prenom.nom@email.com</a>
+          <a class="btn btn-ghost" href="https://github.com/TON-USERNAME" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/TON-PROFIL" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© <span data-year></span> Prénom Nom — Portfolio data analyst</div>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
